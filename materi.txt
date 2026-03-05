@@ -1,0 +1,17 @@
+- MATERI DAY 1 CSS:
+  1. CSS Internal
+  2. CSS External
+  3. Comment
+  4. ID
+  5. Class
+  6. Multiple Class
+  7. Simple Selector
+  8. Combinator Selector
+  9. Attribute Selector
+  10. Color
+  11. Text alignment
+  12. Text decoration
+      https://developer.mozilla.org/en-US/
+  13. Text Transformation
+
+

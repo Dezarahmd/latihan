@@ -1,0 +1,30 @@
+body {
+    background-color: #e4e0e0f4;
+}
+
+h1, h2 {
+    font-family: montserrat;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    font-family: roboto;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.special {
+    border: 3px solid blue;
+}
+
+.card h2 {
+    color: green;
+}

@@ -1,0 +1,62 @@
+- MATERI DAY 1 CSS:
+  1. CSS Internal
+  2. CSS External
+  3. Comment
+  4. ID
+  5. Class
+  6. Multiple Class
+  7. Simple Selector
+  8. Combinator Selector
+  9. Attribute Selector
+  10. Color
+  11. Text alignment
+  12. Text decoration
+      https://developer.mozilla.org/en-US/
+  13. Text Transformation : 
+  	Mengubah text menjadi upppercase, lowercase, capitalize dll
+  
+- MATERI DAY 2 CSS :
+1. Text spacing
+   Text indendt : Menambah tab pada awal paragraf
+   Letter spacing : Mengatur jarak antar huruf
+   Line height : Mengatur jarak antar baris
+   Word spacing : Mengatur jarak antar kata
+   White space : 
+   
+2. Text Shadow
+   /* offset-x | offset-y | blur-radius | color */
+   text-shadow: 1px 1px 2px black;
+   
+3. Font
+   Font family : Untuk mengubah font
+   Font style : Untuk mengubah style font (italic, oblique, bold)
+   Font weight :  Untuk mengubah ketebalan huruf
+   Font size : Mengubah ukuran huruf
+   
+4. Background
+   Backgroud color
+   
+   
+- MATERI DAY 3 CSS :
+1. Box model 
+2. Size
+3. Padding
+4. Margin
+5. Debug with web browser
+6. Min and Max size
+7. Border
+8. Outline
+
+- MATERI DAY 4 CSS :
+1. Backgroud image
+2. Opacity
+3. Value and Unit
+4. Writing mode   
+5. Overflow
+6. Pseudo element selector
+7. Pseudo Classes
+8. Link
+9. List
+10. Table
+11. Table Size
+12. Form

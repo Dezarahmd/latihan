@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="receive.html" method="post" enctype="multipart/form-data">
+        <label for="nama">Nama : </label>
+        <input type="text" name="nama" id="nama"> 
+        <br>
+
+        <label for="date-in">Tanggal dan Jam masuk : </label>
+        <input type="datetime-local" name="date" id="date-in">
+        <br>
+
+        <label for="date-out">tanggal dan Jam keluar : </label>
+        <input type="datetime-local" name="date-out" id="date-out">
+        <br>
+
+        <label for="absen">Upload foto absen : </label>
+        <input type="file" name="absen" id="absen">
+        <br>
+
+        <input type="submit" value="kirim">
+        <input type="reset">
+    </form>
+</body>
+</html>

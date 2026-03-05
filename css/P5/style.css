@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a2e;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #333;
+    background: #16213e;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #00d4ff;
+    border: none;
+    border-radius: 8px;
+    color: #1a1a2e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00a8cc;
+    transform: translateY(-2px);
+}
+
+
+::placeholder {
+    color: #666;
+    font-style: italic;   
+}
+
+input:invalid {
+    border-color: #ff4575;
+}
+
+input:valid {
+    border-color: #2ed573;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.checkbox-group input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00d4ff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"]:checked::after {
+    color: #00d4ff;
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    content: "✔";
+}
+
+/* .terms {    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0 ;
+}
+
+.terms input {
+    width: 16px;
+    height: 16px;
+}
+
+.terms label {
+    font-size: 14px;
+    color: #ddd;
+} */
