@@ -1,3 +1,4 @@
+BASIC
 - MATERI DAY 1 CSS:
   1. CSS Internal
   2. CSS External
@@ -60,3 +61,32 @@
 10. Table
 11. Table Size
 12. Form
+
+- MATERI DAY 5 CSS :
+1. Content
+2. Counter
+3. Filter
+4. Import
+5. Cascade
+6. @Layer
+
+
+- MATERI DAY 1 CSS LAYOUT :
+1. Normal flow
+2. Display
+3. flex-box
+4. Flex Direction
+5. Flex wrap
+6. Flex Items
+7. Flex Grow
+8. Flex Alignment
+9. Justify Content
+10. Align Items
+11. Align content
+12. Gap
+
+- MATERI DAY 2 CSS LAYOUT :
+1. Grid
+2. Grid alignment
+3. Align Content
+4. Justify items

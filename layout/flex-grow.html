@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content {
+            background-color: aqua;
+            border: 2px solid black;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .small {
+            flex-grow: 1;
+        }
+        .large {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Content small">A</div>
+        <div class="Content large">B</div>
+        <div class="Content small">C</div>
+        <div class="Content large">D</div>
+        <div class="Content small">E</div>
+    </div>
+</body>
+</html>

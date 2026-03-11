@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 100px auto 100px;
+            grid-template-rows: 50px auto 100px;
+            grid-template-areas: 
+                "header header header"
+                ". content ."
+                "footer footer footer";
+        }
+
+        .header {
+            background-color: green;
+            grid-area: header;
+
+        }
+
+        .footer {
+            background-color: green;
+            grid-area: footer;
+
+        }
+
+        .content {
+            background-color: bisque;
+            grid-area: content;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Selamat Datang di Website ku
+        </div>
+        <div class="content">
+            <h1>Dezar</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem inventore perspiciatis, deleniti voluptatibus ipsam voluptate eos sit sunt veniam, explicabo illo omnis animi quisquam quaerat saepe unde, nihil dignissimos vero.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime excepturi nobis iure expedita ut necessitatibus, commodi, omnis quidem sint laudantium minima voluptates vero temporibus, unde tempore officiis fugiat quo?</p>
+        </div>
+        <div class="footer">
+            Develop with love
+        </div>
+    </div>
+</body>
+</html>
